@@ -1,0 +1,370 @@
+.Main {
+  display: flex;
+  width: 1152px;
+  height: 1354px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  margin: 32px;
+}
+
+.Order {
+  width: 1152px;
+  height: 178px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.Overview {
+  width: 1152px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.Overview>span {
+  color: var(--Black-12, #1a181e);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.monthView {
+  width: 137px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 4px;
+  border: 1px solid var(--Black-85, #d9d9d9);
+  background: var(--Black-100, #fff);
+}
+
+.monthView>span {
+  color: var(--Black-30, #4d4d4d);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.monthView>img {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.Orderdesc {
+  width: 1152px;
+  height: 118px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.Online {
+  width: 566px;
+  height: 118px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: var(--Spacing-spacing-04, 8px);
+  background: var(--Black-100, #fff);
+  box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+}
+
+.Online>span:nth-child(1) {
+  color: var(--Black-30, #4d4d4d);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Online>span:nth-child(2) {
+  color: var(--Black-12, #1a181e);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.OrderDetail {
+  width: 1152px;
+  height: 1144px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.OrderDetail>span {
+  width: 249px;
+  height: 28px;
+  color: var(--Black-12, #1a181e);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.OrderTable {
+  width: 1152px;
+  height: 1096px;
+  display: flex;
+  padding: 12px 12px 24px 12px;
+  flex-direction: column;
+  align-items: flex-end;
+  border-radius: var(--Spacing-spacing-04, 8px);
+  background: var(--Black-100, #fff);
+  box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+}
+
+.TableHeader {
+  width: 1128px;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.HeaderShortcut {
+  width: 1128px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.InputOrderID {
+  width: 248px;
+  height: 40px;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--Black-85, #d9d9d9);
+  background: var(--Black-100, #fff);
+}
+
+.InputOrderID>img {
+  width: 14px;
+  height: 14px;
+}
+
+.InputOrderID>span {
+  color: var(--Black-60, #999);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.TableIcon {
+  width: 127px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.Sort {
+  width: 79px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  padding: 6px 12px;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--Black-85, #d9d9d9);
+  background: var(--Black-100, #fff);
+}
+
+.Sort>span {
+  color: var(--Black-30, #4d4d4d);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Download {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid var(--Black-85, #d9d9d9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Download>img {
+  width: 20px;
+  height: 20px;
+}
+
+.Column {
+  width: 1128px;
+  height: 40px;
+  display: flex;
+  padding: 10px 12px;
+  align-items: center;
+  gap: 40px;
+  border-radius: 4px;
+  background: var(--Black-95, #f2f2f2);
+}
+
+.Column>span:nth-child(1) {
+  width: 246px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--Black-30, #4d4d4d);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.OrderDate {
+  width: 246px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+}
+
+.OrderDate>span {
+  color: var(--Black-30, #4d4d4d);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.Column>span:nth-child(3) {
+  width: 246px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--Black-30, #4d4d4d);
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.Fees {
+  width: 246px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+}
+
+.Fees>span {
+  color: var(--Black-30, #4d4d4d);
+  text-align: right;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.ColumnData {
+  display: flex;
+  width: 1128px;
+  height: 48px;
+  padding: 14px 12px;
+  align-items: center;
+  gap: 40px;
+  background: var(--Black-100, #fff);
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.ColumnData>span {
+  width: 246px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--Black-12, #1a181e);
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ColumnData>span:nth-child(1) {
+  color: var(--Primary-Blue, #146eb4);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.ColumnData>span:nth-child(3),
+.ColumnData>span:nth-child(4) {
+  justify-content: flex-end;
+}
+
+.Pagination {
+  width: 610px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  color: var(--Black-30, #4d4d4d);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 24px auto;
+}
+
+.Prev,
+.Next {
+  display: flex;
+  padding: 6px 12px 6px 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 4px;
+  border: 1px solid var(--Black-85, #d9d9d9);
+  background: var(--Black-100, #fff);
+}
+
+.Next {
+  padding: 6px 6px 6px 12px;
+}

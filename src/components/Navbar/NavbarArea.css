@@ -1,0 +1,133 @@
+.Navbar {
+  width: 224px;
+  height: 100%;
+  color: #ffffff;
+}
+
+.Wrapper {
+  padding: 16px 10px;
+  background: var(--Secondary-Navbar, #1e2640);
+  display: flex;
+  flex-direction: column;
+}
+
+.Upper {
+  height: 1380px;
+}
+
+.Icon {
+  height: 42px;
+  width: 192px;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.Image1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+}
+
+.companyName {
+  width: 108px;
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.companyName>span:nth-child(odd) {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.companyName>span:nth-child(even) {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration-line: underline;
+  opacity: 0.8;
+}
+
+.Image2 {
+  width: 20px;
+  height: 20px;
+}
+
+.Links {
+  width: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.linkItem {
+  display: flex;
+  width: 208px;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 4px;
+}
+
+.Links>.linkItem:nth-child(7) {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.linkItem>img {
+  opacity: 0.8;
+}
+
+.linkItem>span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.Bottom {
+  display: flex;
+  width: 192px;
+  padding: 6px 12px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #353c53;
+  margin-top: 16px;
+}
+
+.walletImg {
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 6px;
+  height: 36px;
+}
+
+.walletInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.walletInfo>span:nth-child(1) {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  opacity: 0.8;
+}
+
+.walletInfo>span:nth-child(2) {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
